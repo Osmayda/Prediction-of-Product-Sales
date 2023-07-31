@@ -17,3 +17,6 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
+
+# Project 1 - Revisited
+## LinearRegression coefficient plot
