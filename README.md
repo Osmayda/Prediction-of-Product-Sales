@@ -39,5 +39,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 # Explaining Models with SHAP
 ![summary_plot_bar_rf_reg](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/70d677a2-c7ef-4b25-acf3-92110339c53d)
 
+![2 summary_plot_dot_rf_reg](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/50f798b7-bf93-4b11-b8ec-bbe191ceb9af)
+
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
