@@ -59,7 +59,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
       
 - Outlet_Type_Supermarket Type3
   
-    - As the number of outlet type supermarket type 3 increases the higher the sales predicted
+    - as the number of outlet type supermarket type 3 increases the higher the sales predicted
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
