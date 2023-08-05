@@ -38,8 +38,28 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 # Explaining Models with SHAP
 ![summary_plot_bar_rf_reg](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/70d677a2-c7ef-4b25-acf3-92110339c53d)
+## SHAP vs. Feature Importances
+- SHAP and Feature Importances show the same top 5 features
+
+**Similarities:**
+- Both the SHAP bar plot and feature importances show Item_MRP and Outlet_Type_Grocery Store as the top features
+
+**Differences:**
+- The SHAP bar plot shows Outlet_Type_Supermarket Type3 as 3rd most important feature while the same feature ranks 4th on the Feature Importances
+- Item_Visibility ranks 4th on the SHAP bar while it ranks 3rd on the Feature Importances
 
 ![2 summary_plot_dot_rf_reg](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/50f798b7-bf93-4b11-b8ec-bbe191ceb9af)
+
+**Summary Dot Plot Interpretation - Top 3 most important features**
+- Item_MRP
+    - higher counts of Item MRP increases predicted sales
+      
+- Outlet_Type_Grocery Store
+    - A higher number of outlet type grocery stores decreases predicted sales
+      
+- Outlet_Type_Supermarket Type3
+  
+    - As the number of outlet type supermarket type 3 increases the higher the sales predicted
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
