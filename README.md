@@ -17,7 +17,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 # Project 1 - Revisited
 ## LinearRegression coefficient plot
-
+![top_15_largest_coefficients](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/206fc0db-3bef-49de-b5c0-e3d316f49077)
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
