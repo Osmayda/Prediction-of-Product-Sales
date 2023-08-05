@@ -36,5 +36,8 @@ From the metric scores, we can see that the mean absolute Error for the Decision
     - Outlet_Type_Supermarket Type3
     - Item_Weight
 
+#Explaining Models with SHAP
+![summary_plot_bar_rf_reg](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/70d677a2-c7ef-4b25-acf3-92110339c53d)
+
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
