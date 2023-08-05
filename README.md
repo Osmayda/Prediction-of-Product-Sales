@@ -38,9 +38,3 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
-
-
-# Top 15 Largest Coefficients
-
-
->>>>>>> 813f76db136b9d25b594617b4b715e9d4aa9a47f
