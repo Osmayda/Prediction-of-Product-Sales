@@ -15,7 +15,7 @@ Linear and Decision Tree Models were used to analyze the data.
 # Results
 From the metric scores, we can see that the mean absolute Error for the Decision Tree is lower than the one from the linear model. 
 
-# Project 1 - Revisited
+# Project 1 revisited - Importances and Coefficients
 ## LinearRegression coefficient plot
 ![top_15_largest_coefficients](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/206fc0db-3bef-49de-b5c0-e3d316f49077)
 
