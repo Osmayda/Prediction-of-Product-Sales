@@ -19,6 +19,14 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 ## LinearRegression coefficient plot
 ![top_15_largest_coefficients](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/206fc0db-3bef-49de-b5c0-e3d316f49077)
 
+- **Top 3 Most Impactful Features**
+    - Outlet_Type_Grocery store
+        - If you add one Outlet type grocery store the predicted sales would reduce by 1607.678.
+    - Outlet_Type_Supermarket Type3
+        - If you add one Outlet_Type_Supermarket Type3 the predicted sales would increase by 1524.724.
+    - Item_Visibility
+        - If you add one Item_Visibility the predicted sales would decline by 425.370.
+
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
 
