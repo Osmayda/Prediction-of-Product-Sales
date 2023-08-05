@@ -26,6 +26,8 @@ From the metric scores, we can see that the mean absolute Error for the Decision
         - If you add one Outlet_Type_Supermarket Type3 the predicted sales would increase by 1524.724.
     - Item_Visibility
         - If you add one Item_Visibility the predicted sales would decline by 425.370.
+# Project 1 revisited - Feature Importances
+
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
