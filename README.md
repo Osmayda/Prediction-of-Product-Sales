@@ -27,7 +27,13 @@ From the metric scores, we can see that the mean absolute Error for the Decision
     - Item_Visibility
         - If you add one Item_Visibility the predicted sales would decline by 425.370.
 # Project 1 revisited - Feature Importances
-
+![feature_importances](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/3622c8a5-a0f2-4ca3-83a2-e70294d81fbb)
+- Top 5 most important features
+    - Item MRP
+    - Outlet_Type_Grocery Store
+    - Item_Visibility
+    - Outlet_Type_Supermarket Type3
+    - Item_Weight
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
