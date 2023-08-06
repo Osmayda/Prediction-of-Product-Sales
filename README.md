@@ -83,7 +83,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 **LIME**
 
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/49ba61d4-9c3d-4e90-be64-77e5dcf7f981)
-![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/ee932fa5-268e-4cf1-90e4-299e92510daa)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/bd865f8e-499f-4c16-bd1c-e684712d260c)
 - Predicted Value is 5198.55. 
 
 Interpreting our Features with the 'negative' and 'positive' bar chart
