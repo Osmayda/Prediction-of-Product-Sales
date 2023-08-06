@@ -61,6 +61,8 @@ From the metric scores, we can see that the mean absolute Error for the Decision
   
     - as the number of outlet type supermarket type 3 increases the higher the sales predicted
 
+## **Local Explanations**
+[saveeee.docx](https://github.com/Osmayda/Prediction-of-Product-Sales/files/12269218/saveeee.docx)
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
