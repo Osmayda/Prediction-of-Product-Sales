@@ -80,7 +80,10 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 - major feature: Outlet_Type_Supermarket Type3
 - Outlet_Size_Small is the feature that is driving sales up
 
-**LIME**
+
+**LIME Tabular Explanation**
+
+**High Sales**
 
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/49ba61d4-9c3d-4e90-be64-77e5dcf7f981)
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/bd865f8e-499f-4c16-bd1c-e684712d260c)
@@ -96,6 +99,10 @@ Interpreting our Features with the 'negative' and 'positive' bar chart
         - Outlet_Type_Grocery Store
         - Item_MRP
         - Item_Type_Canned
+
+**Low Sales**
+
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/101c9861-915b-4532-978a-e54852c5a306)
 
 
 - Predicted Value is 723.46. 
