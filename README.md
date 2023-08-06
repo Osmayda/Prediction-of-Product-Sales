@@ -103,6 +103,7 @@ Interpreting our Features with the 'negative' and 'positive' bar chart
 **Low Sales**
 
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/101c9861-915b-4532-978a-e54852c5a306)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/7911afb9-7e40-4bb3-b2cb-95e67128841f)
 
 
 - Predicted Value is 723.46. 
