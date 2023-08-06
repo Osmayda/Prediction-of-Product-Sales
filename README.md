@@ -62,6 +62,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
     - as the number of outlet type supermarket type 3 increases the higher the sales predicted
 
 ## **Local Explanations**
+**High Sales**
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/0f69ee9d-74ba-49d8-b474-15e7fe744f1d)
 **Interpretation**
 - a significant push toward the right indicates higher sales
@@ -71,7 +72,8 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 - Outlet size is the feature that is driving the sales downward.
 
-
+**Low Sales**
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/20b5bb6f-61d6-46c1-8d78-452e281efdb2)
 **Interpretation**
 - a significant push to the left indicating lower sales
 - 32.06 of a list price of a product goes to sales
