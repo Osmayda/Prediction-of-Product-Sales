@@ -52,7 +52,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 **Summary Dot Plot Interpretation - Top 3 most important features**
 - Item_MRP
-    - higher counts of Item MRP increases predicted sales
+    - The higher the item MRP (maximum retail price) the higher the predicted sales
       
 - Outlet_Type_Grocery Store
     - A higher number of outlet type grocery stores decreases predicted sales
@@ -61,5 +61,63 @@ From the metric scores, we can see that the mean absolute Error for the Decision
   
     - as the number of outlet type supermarket type 3 increases the higher the sales predicted
 
+## **Local Explanations**
+**High Sales**
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/0f69ee9d-74ba-49d8-b474-15e7fe744f1d)
+**Interpretation**
+- a significant push toward the right indicates higher sales
+- 265.2 of a list price of a product goes to sales
+- major features: Outlet_Type_Grocery Store and Item_Visibility
+
+
+- Outlet size is the feature that is driving the sales downward.
+
+**Low Sales**
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/20b5bb6f-61d6-46c1-8d78-452e281efdb2)
+**Interpretation**
+- a significant push to the left indicating lower sales
+- 32.06 of a list price of a product goes to sales
+- major feature: Outlet_Type_Supermarket Type3
+- Outlet_Size_Small is the feature that is driving sales up
+
+
+**LIME Tabular Explanation**
+
+**High Sales**
+
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/49ba61d4-9c3d-4e90-be64-77e5dcf7f981)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/bd865f8e-499f-4c16-bd1c-e684712d260c)
+- Predicted Value is 5198.55. 
+
+Interpreting our Features with the 'negative' and 'positive' bar chart
+
+    - Negative (lower sales). These are features that contribute to lower sales. Some of the features include:
+        - Outlet_Type_Supermarket Type1
+        - Item_Type_Soft Drinks
+        - Outlet_Size_High
+    - Positive (higher sales). These are features that contribute to higher sales. Some of the features include: 
+        - Outlet_Type_Grocery Store
+        - Item_MRP
+        - Item_Type_Canned
+
+**Low Sales**
+
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/101c9861-915b-4532-978a-e54852c5a306)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/7911afb9-7e40-4bb3-b2cb-95e67128841f)
+
+
+- Predicted Value is 723.46. 
+
+Interpreting our Features with the 'negative' and 'positive' bar chart
+
+    - Negative (lower sales). These are features that contribute to lower sales. Some of the features include:
+        - Item_MRP
+        - Outlet_Type_Supermarket Type3
+        - Item_Type_Starchy Foods
+    - Positive (higher sales). These are features that contribute to higher sales. Some of the features include: 
+        - Outlet_Type_Grocery Store
+        - Outlet_Type_Supermarket Type1
+        - Item_Type_Frozen Foods
+        
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
