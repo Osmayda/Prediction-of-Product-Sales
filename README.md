@@ -96,6 +96,20 @@ Interpreting our Features with the 'negative' and 'positive' bar chart
         - Outlet_Type_Grocery Store
         - Item_MRP
         - Item_Type_Canned
+
+
+- Predicted Value is 723.46. 
+
+Interpreting our Features with the 'negative' and 'positive' bar chart
+
+    - Negative (lower sales). These are features that contribute to lower sales. Some of the features include:
+        - Item_MRP
+        - Outlet_Type_Supermarket Type3
+        - Item_Type_Starchy Foods
+    - Positive (higher sales). These are features that contribute to higher sales. Some of the features include: 
+        - Outlet_Type_Grocery Store
+        - Outlet_Type_Supermarket Type1
+        - Item_Type_Frozen Foods
         
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
