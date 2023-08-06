@@ -52,7 +52,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 **Summary Dot Plot Interpretation - Top 3 most important features**
 - Item_MRP
-    - higher counts of Item MRP increases predicted sales
+    - The higher the item MRP (maximum retail price) the higher the predicted sales
       
 - Outlet_Type_Grocery Store
     - A higher number of outlet type grocery stores decreases predicted sales
@@ -60,6 +60,7 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 - Outlet_Type_Supermarket Type3
   
     - as the number of outlet type supermarket type 3 increases the higher the sales predicted
+
 
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
