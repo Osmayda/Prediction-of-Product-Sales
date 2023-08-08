@@ -9,8 +9,8 @@ The goal is to help the retailer understand the properties of products and outle
 https://drive.google.com/drive/u/1/folders/1igjqLYVDiIEkvvvNPx4fRKXO5ZwvnFDo
 ## Source: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
-# Data Dictionary for this dataset:
-
+## Data Dictionary for this dataset:
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/3424c24c-a9be-46af-856d-7f1c11ddfa5d)
 
 ## Methods
 The data was preprocessed. Duplicates were removed, missing items were imputed using the median, creating a "missing" value for nulls counts, and inconsistencies were fixed. 
