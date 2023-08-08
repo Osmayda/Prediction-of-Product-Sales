@@ -7,6 +7,10 @@ The goal is to help the retailer understand the properties of products and outle
 
 ## Data: 
 https://drive.google.com/drive/u/1/folders/1igjqLYVDiIEkvvvNPx4fRKXO5ZwvnFDo
+## Source: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+
+## Data Dictionary for this dataset:
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/3424c24c-a9be-46af-856d-7f1c11ddfa5d)
 
 ## Methods
 The data was preprocessed. Duplicates were removed, missing items were imputed using the median, creating a "missing" value for nulls counts, and inconsistencies were fixed. 
@@ -63,22 +67,27 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 ## **Local Explanations**
 **High Sales**
-![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/0f69ee9d-74ba-49d8-b474-15e7fe744f1d)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/7517d1de-97ad-4d41-b57b-b813773ed4d9)
 **Interpretation**
 - a significant push toward the right indicates higher sales
-- 265.2 of a list price of a product goes to sales
-- major features: Outlet_Type_Grocery Store and Item_Visibility
+- the higher the item_MRP (Maximum Retail Price) of the product the higher the revenue
+
+- major features that drive the price up are:
+    - the item was not sold at Outlet_Type_Grocery Store
+    - the item sold had a visibility of 0.02588
 
 
 - Outlet size is the feature that is driving the sales downward.
 
 **Low Sales**
-![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/20b5bb6f-61d6-46c1-8d78-452e281efdb2)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/f1ede1c8-9d10-415e-a803-c5747f993070)
 **Interpretation**
 - a significant push to the left indicating lower sales
-- 32.06 of a list price of a product goes to sales
-- major feature: Outlet_Type_Supermarket Type3
-- Outlet_Size_Small is the feature that is driving sales up
+- items with lower MRP (Maximum Retail Price) bring in less revenue
+
+- major features that drive sales down are: 
+    - item was not sold at an Outlet_Type_Supermarket Type3
+    - item MRP was the lowest at 32.06 Rupees
 
 
 **LIME Tabular Explanation**
