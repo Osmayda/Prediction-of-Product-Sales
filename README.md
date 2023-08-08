@@ -67,11 +67,14 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 ## **Local Explanations**
 **High Sales**
-![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/0f69ee9d-74ba-49d8-b474-15e7fe744f1d)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/7517d1de-97ad-4d41-b57b-b813773ed4d9)
 **Interpretation**
 - a significant push toward the right indicates higher sales
-- 265.2 of a list price of a product goes to sales
-- major features: Outlet_Type_Grocery Store and Item_Visibility
+- the higher the item_MRP (Maximum Retail Price) of the product the higher the revenue
+
+- major features that drive the price up are:
+    - the item was not sold at Outlet_Type_Grocery Store
+    - the item sold had a visibility of 0.02588
 
 
 - Outlet size is the feature that is driving the sales downward.
