@@ -7,6 +7,10 @@ The goal is to help the retailer understand the properties of products and outle
 
 ## Data: 
 https://drive.google.com/drive/u/1/folders/1igjqLYVDiIEkvvvNPx4fRKXO5ZwvnFDo
+## Source: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+
+# Data Dictionary for this dataset:
+
 
 ## Methods
 The data was preprocessed. Duplicates were removed, missing items were imputed using the median, creating a "missing" value for nulls counts, and inconsistencies were fixed. 
