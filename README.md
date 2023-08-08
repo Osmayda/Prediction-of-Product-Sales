@@ -77,8 +77,6 @@ From the metric scores, we can see that the mean absolute Error for the Decision
     - the item sold had a visibility of 0.02588
 
 
-- Outlet size is the feature that is driving the sales downward.
-
 **Low Sales**
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/f1ede1c8-9d10-415e-a803-c5747f993070)
 **Interpretation**
@@ -96,37 +94,48 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/49ba61d4-9c3d-4e90-be64-77e5dcf7f981)
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/bd865f8e-499f-4c16-bd1c-e684712d260c)
-- Predicted Value is 5198.55. 
 
-Interpreting our Features with the 'negative' and 'positive' bar chart
+**Interpretation**
 
-    - Negative (lower sales). These are features that contribute to lower sales. Some of the features include:
-        - Outlet_Type_Supermarket Type1
-        - Item_Type_Soft Drinks
-        - Outlet_Size_High
-    - Positive (higher sales). These are features that contribute to higher sales. Some of the features include: 
-        - Outlet_Type_Grocery Store
-        - Item_MRP
-        - Item_Type_Canned
+According to LIME, these features negatively affected the sales of the highest-priced item sold.
+
+   - the item was not sold at an Outlet_Type_Supermarket Type1
+   - the item is not sold at an Outlet_Size_High
+   
+The item with the highest Item_MRP did not have these features: 
+    -Item_Type_Soft Drinks
+   - Item_Fat_Content_Regular
+   - Item_Type_Household
+   
+According to LIME, these features increased the sales of the highest price item sold.  
+   - the item was not sold at Outlet_Type_Grocery Store but rather that it was sold at an Outlet_Type_Supermarket Type1
+   - the Item_Visibility was 0.03
+   - Item_MRP was the highest at 265.22 Rupees
+   - it is an Item_Type_Canned
 
 **Low Sales**
 
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/101c9861-915b-4532-978a-e54852c5a306)
 ![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/7911afb9-7e40-4bb3-b2cb-95e67128841f)
 
+**Interpretation**
 
-- Predicted Value is 723.46. 
+According to LIME, these features negatively affected the sales of the lowest-priced item sold
+  - Item_MRP was the lowest at 32.06 Rupees
+  - item was not sold at an Outlet_Type_Supermarket Type3
+        
+The item with the lowest Item_MRP did not have these features: 
+   - item was not an Item_Type_Seafood
+   - item was not an Item_Type_Snack Foods
+   - item was not an Item_Type_Hard Drinks
+   - item was not an Item_Type_Breakfast
+   - item was not an Item_Type_Solf Drinks
+        
+According to LIME, these features contributed to higher sales of the lowest-priced item sold
 
-Interpreting our Features with the 'negative' and 'positive' bar chart
-
-    - Negative (lower sales). These are features that contribute to lower sales. Some of the features include:
-        - Item_MRP
-        - Outlet_Type_Supermarket Type3
-        - Item_Type_Starchy Foods
-    - Positive (higher sales). These are features that contribute to higher sales. Some of the features include: 
-        - Outlet_Type_Grocery Store
-        - Outlet_Type_Supermarket Type1
-        - Item_Type_Frozen Foods
+   - item was not sold at Outlet_Type_Grocery Store
+   - item was not sold at Outlet_Type_Supermarket Type2
+   - item was sold at Outlet_Type_Supermarket Type1
         
 ## For further information contact:
 For any additional questions, please contact osmaydanino@hotmail.com
