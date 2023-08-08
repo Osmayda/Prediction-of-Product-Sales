@@ -80,12 +80,14 @@ From the metric scores, we can see that the mean absolute Error for the Decision
 - Outlet size is the feature that is driving the sales downward.
 
 **Low Sales**
-![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/20b5bb6f-61d6-46c1-8d78-452e281efdb2)
+![image](https://github.com/Osmayda/Prediction-of-Product-Sales/assets/129660519/f1ede1c8-9d10-415e-a803-c5747f993070)
 **Interpretation**
 - a significant push to the left indicating lower sales
-- 32.06 of a list price of a product goes to sales
-- major feature: Outlet_Type_Supermarket Type3
-- Outlet_Size_Small is the feature that is driving sales up
+- items with lower MRP (Maximum Retail Price) bring in less revenue
+
+- major features that drive sales down are: 
+    - item was not sold at an Outlet_Type_Supermarket Type3
+    - item MRP was the lowest at 32.06 Rupees
 
 
 **LIME Tabular Explanation**
